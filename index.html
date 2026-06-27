@@ -213,6 +213,8 @@
   .set-check{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--ink);cursor:pointer}
   .set-check input{width:16px;height:16px;accent-color:var(--accent);cursor:pointer}
   .set-note{font-size:11px;color:var(--ink-faint);margin-top:8px;line-height:1.5}
+  .set-link{display:inline-block;font-size:13px;color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent-dim);padding-bottom:1px}
+  .set-link:hover{filter:brightness(1.12)}
   .danger-row{border-top:1px solid var(--line);padding-top:16px}
 </style>
 </head>
@@ -343,6 +345,10 @@
       </div>
       <div class="set-row">
         <label class="set-check"><input type="checkbox" id="confirmToggle"> 削除前に確認ダイアログを表示する</label>
+      </div>
+      <div class="set-row">
+        <label class="set-label">使い方・ソースコード</label>
+        <a class="set-link" href="https://github.com/kinpiras155/github.io" target="_blank" rel="noopener">GitHub リポジトリ（README）を開く ↗</a>
       </div>
       <div class="set-row danger-row">
         <button class="bb-btn danger" id="resetData">メタデータを全消去</button>
