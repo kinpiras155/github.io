@@ -1,11 +1,10 @@
-[README.md](https://github.com/user-attachments/files/29406201/README.md)
 # github.io
 # 原稿トラッカー
 
 漫画・イラスト原稿の進捗をブラウザ上で管理するツールです。  
 **インストール不要。URLを開くだけで使えます。**
 
-🔗 **[ツールを開く](https://your-username.github.io/manga-progress/)**  
+🔗 **[ツールを開く](https://kinpiras155.github.io/github.io/)**  
 
 
 ---
